@@ -1,0 +1,2 @@
+CREATE TABLE test (id SERIAL UNIQUE, created_at timestamp default current_timestamp, name TEXT, sex TEXT, interest TEXT);
+INSERT INTO test(name, sex, interest) VALUES ('tom', 'male', 'coding'), ('ebba', 'female', 'nails');
